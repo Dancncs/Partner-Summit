@@ -1,0 +1,44 @@
+// Susy and breakpoint
+
+$susy: (
+	columns 					: 6,
+	container 				: 1300px,
+	global-box-sizing : border-box,
+	debug 						: (image: show)
+	);
+	
+@include border-box-sizing;
+
+$narrow 	          : 340px;
+$tablet 	          : 600px;
+$desktop 	          : 980px;
+$wide 	            : 1280px;
+$scr__Height        : 1280px;
+  
+  
+// Typo  
+  
+$base-font-size 	  : 14px;
+$base-line-height   : 1.5em;
+@include establish-baseline;
+
+$light              : light;
+$regular 	          : regular;
+$medium             : medium;
+  
+$fontFamily         : 'DinReg', arial, helvetica, sans-serif;
+$headFont           : 'DinMed', $medium 1.5em/1.5em $fontFamily;
+$quoteFont          : 'DinLight' $light 2em/2em $fontFamily;
+$mainFont           : 1em/1.5em $fontFamily;
+
+
+// Color Swatches
+// $red	 					    : #9C1A28;
+// $pink	 					    : #FEF3F4;
+// $grey	 					    : #B3B3B3;
+// $dark	 					    : #000;
+// $light 					    : #FFF;
+   
+// $coRed 					    : $red;
+// $bgColor 				    : $pink;
+// $nav						    : $grey;

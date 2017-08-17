@@ -1,0 +1,12 @@
+body {
+	font            : $mainFont;
+} //body
+
+#{headings()} {
+	font            : $headFont;
+	color           : #333;
+} //headings
+
+p {
+	margin-bottom   : 20px;
+} //p
