@@ -1,55 +1,59 @@
-@font-face {
-  font-family: "DinMed";
-  src: url("../fonts/din-medium.eot");
-  src: url("../fonts/din-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/din-medium.svg#DINMedium") format("svg"), url("../fonts/din-medium.woff") format("woff"), url("../fonts/din-medium.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "DinReg";
-  src: url("../fonts/din-regular.eot");
-  src: url("../fonts/din-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/din-regular.svg#DINRegular") format("svg"), url("../fonts/din-regular.woff") format("woff"), url("../fonts/din-regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "DinLight";
-  src: url("../fonts/din-light.eot");
-  src: url("../fonts/din-light.eot?#iefix") format("embedded-opentype"), url("../fonts/din-light.svg#DINLight") format("svg"), url("../fonts/din-light.woff") format("woff"), url("../fonts/din-light.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-/*ICON FONT*/
-@font-face {
-  font-family: 'Genericons';
-  src: url("../fonts/genericons-regular-webfont.eot") format("eot");
-  src: url("../fonts/genericons-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/genericons-regular-webfont.woff") format("woff"), url("../fonts/genericons-regular-webfont.ttf") format("truetype"), url("../fonts/genericons-regular-webfont.svg#genericonsregular") format("svg");
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\%202\.app\/Contents\/Resources\/engines\/susy\/sass\/susy\/language\/susy\/_box-sizing\.scss}line{font-family:\0000321}}
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\%202\.app\/Contents\/Resources\/engines\/compass\/compass-core\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\00003106}}
 html {
-  font-size: 87.5%;
-  line-height: 1.5em;
+  line-height: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BCC-1\/Documents\/Creative\%20Cloud\%20Files\/Kyoob\/Architect\/Production\/html\/scss\/base\.scss}line{font-family:\000031}}
-body {
-  font: 1em/1.5em "DinReg", arial, helvetica, sans-serif;
+ol, ul {
+  list-style: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BCC-1\/Documents\/Creative\%20Cloud\%20Files\/Kyoob\/Architect\/Production\/html\/scss\/base\.scss}line{font-family:\000035}}
-h1, h2, h3, h4, h5, h6 {
-  font: "DinMed", medium 1.5em/1.5em "DinReg", arial, helvetica, sans-serif;
-  color: #333;
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/BCC-1\/Documents\/Creative\%20Cloud\%20Files\/Kyoob\/Architect\/Production\/html\/scss\/base\.scss}line{font-family:\0000310}}
-p {
-  margin-bottom: 20px;
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
 }

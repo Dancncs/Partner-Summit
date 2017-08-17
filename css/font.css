@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "DinMed";
+  src: url("../fonts/din-medium.eot");
+  src: url("../fonts/din-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/din-medium.svg#DINMedium") format("svg"), url("../fonts/din-medium.woff") format("woff"), url("../fonts/din-medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DinReg";
+  src: url("../fonts/din-regular.eot");
+  src: url("../fonts/din-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/din-regular.svg#DINRegular") format("svg"), url("../fonts/din-regular.woff") format("woff"), url("../fonts/din-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DinLight";
+  src: url("../fonts/din-light.eot");
+  src: url("../fonts/din-light.eot?#iefix") format("embedded-opentype"), url("../fonts/din-light.svg#DINLight") format("svg"), url("../fonts/din-light.woff") format("woff"), url("../fonts/din-light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/*ICON FONT*/
+@font-face {
+  font-family: 'Genericons';
+  src: url("../fonts/genericons-regular-webfont.eot") format("eot");
+  src: url("../fonts/genericons-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/genericons-regular-webfont.woff") format("woff"), url("../fonts/genericons-regular-webfont.ttf") format("truetype"), url("../fonts/genericons-regular-webfont.svg#genericonsregular") format("svg");
+}

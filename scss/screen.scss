@@ -1,24 +1,6 @@
-// Compass imports
-@import "compass";
-// @import "compass/reset";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-// External Libraries
-@import "susy";
-//@import "../bower_components/breakpoint-sass/stylesheets/breakpoint";
-
-// Typo
-@import "font";
-
-// Core Partial
-@import "variables";
-@import "mixins";
-@import "base";
-@import "layout";
-
-// Modules
-@import "modules/nav";
-@import "modules/home";
-@import "modules/about";
-@import "modules/client";
-@import "modules/project";
-@import "modules/contact";
+@import "compass/reset";
