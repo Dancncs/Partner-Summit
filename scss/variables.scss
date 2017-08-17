@@ -1,8 +1,8 @@
 // Susy and breakpoint
 
 $susy: (
-	columns 					: 6,
-	container 				: 1300px,
+	columns 					: 4,
+	container 				: 990px,
 	global-box-sizing : border-box,
 	debug 						: (image: show)
 	);
@@ -26,19 +26,12 @@ $light              : light;
 $regular 	          : regular;
 $medium             : medium;
   
-$fontFamily         : 'DinReg', arial, helvetica, sans-serif;
-$headFont           : 'DinMed', $medium 1.5em/1.5em $fontFamily;
-$quoteFont          : 'DinLight' $light 2em/2em $fontFamily;
+$fontFamily         : 'Roboto-reg', arial, helvetica, sans-serif;
+$headFont           : 'Roboto-bold', $medium 1.5em/1.5em $fontFamily;
 $mainFont           : 1em/1.5em $fontFamily;
 
 
 // Color Swatches
-// $red	 					    : #9C1A28;
-// $pink	 					    : #FEF3F4;
-// $grey	 					    : #B3B3B3;
-// $dark	 					    : #000;
-// $light 					    : #FFF;
-   
-// $coRed 					    : $red;
-// $bgColor 				    : $pink;
-// $nav						    : $grey;
+$black					    : #000;
+$blue 					    : #3DC6EF;
+$grey	 					    : #AAA;
