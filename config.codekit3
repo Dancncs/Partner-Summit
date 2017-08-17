@@ -9,10 +9,22 @@
 	],
 "creatorBuild": "25849",
 "files": {
+	"\/agenda.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/agenda.html",
+		"oF": 0
+		},
 	"\/config.rb": {
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
+		"oF": 0
+		},
+	"\/contact.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/contact.html",
 		"oF": 0
 		},
 	"\/css\/base.css": {
@@ -84,6 +96,12 @@
 		"oAP": "\/css\/variables-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/faq.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/faq.html",
+		"oF": 0
 		},
 	"\/images\/adith.jpg": {
 		"ft": 16384,
@@ -355,6 +373,18 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/speakers.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/speakers.html",
+		"oF": 0
+		},
+	"\/venue.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/venue.html",
+		"oF": 0
 		}
 	},
 "hooks": [
