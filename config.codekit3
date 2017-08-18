@@ -3912,16 +3912,6 @@
 		"oAP": "\/contact.html",
 		"oF": 0
 		},
-	"\/css\/modules\/faq.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/modules\/faq-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/css\/screen.css": {
 		"aP": 1,
 		"bl": 0,
@@ -4208,6 +4198,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/script-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/script_faq-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/script_faq-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

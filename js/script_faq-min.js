@@ -1,1 +1,1 @@
-jQuery(document).ready(function($){var e=$(".question"),n=$(".answer-wrap");n.hide(),e.click(function(){var e=$(this).next("div.answer-wrap");n.not(e).slideUp(500),$(this).toggleClass("faqoff faqon"),e.slideToggle(500)})});
+jQuery(document).ready(function($){var e=$(".question"),i=$(".answer-wrap");i.hide(),$(".first").show(),e.click(function(){var e=$(this).next("div.answer-wrap");i.not(e).slideUp(500),$(this).toggleClass("faqoff faqon"),e.slideToggle(500)})});

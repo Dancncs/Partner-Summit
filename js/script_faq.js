@@ -4,6 +4,7 @@ jQuery(document).ready(function($) {
 			answer = $('.answer-wrap');
 
 	answer.hide();
+	$('.first').show();
 	question.click(function() {
 		var elem = $(this).next("div.answer-wrap");
 		answer.not(elem).slideUp(500);
