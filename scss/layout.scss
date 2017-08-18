@@ -94,7 +94,7 @@ header {
 			@include border-radius(3px);
 			border: 1px solid #3DC6EF;
 			display: inline-block;
-			font-size: 24px;
+			font-size: 20px;
 			margin-bottom: 20px;
 			padding: 10px 20px;
 			text-transform: uppercase;
@@ -104,9 +104,23 @@ header {
 			display: block;
 			font-size: 16px;
 			text-transform: capitalize;
-		}
+		} // .registered
 	} // a
-}
+
+	&.side-button {
+		@include span(3 of 12 last);
+		margin-top: 0;
+
+		& .register {
+			float: right;
+			margin-bottom: 10px;
+		} // .resgister
+
+		& .registered {
+			float: right;
+		} // .registered
+	} // .side-button
+} // .button
 
 // section
 section {

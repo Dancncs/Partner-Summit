@@ -1,0 +1,37 @@
+.speakers {
+	ul {
+		@include pie-clearfix;
+		list-style: none;
+	} // ul
+
+	li {
+		@include gallery(2 of 6);
+		margin-bottom: 30px;
+	} // li
+
+	.title {
+		border-bottom: 1px solid #AAA;
+		color: #AAA;
+		font: {
+			size: 36px;
+			weight: lighter;
+		} // font
+		text: {
+			align: center;
+			transform: uppercase;
+		} // text
+		padding-bottom: 10px;
+	} // .title
+
+	.speaker-img {} // .speaker-img
+
+	p {
+		font-size: 14px;
+		margin-top: 0;
+		text-align: center;
+	} // p
+
+	#breakout {
+		margin-top: 60px;
+	}
+} // .speakers
