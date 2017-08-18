@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){var e=$(".question"),n=$(".answer-wrap");n.hide(),e.click(function(){var e=$(this).next("div.answer-wrap");n.not(e).slideUp(500),$(this).toggleClass("faqoff faqon"),e.slideToggle(500)})});

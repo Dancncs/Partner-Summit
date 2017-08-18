@@ -3912,6 +3912,16 @@
 		"oAP": "\/contact.html",
 		"oF": 0
 		},
+	"\/css\/modules\/faq.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/modules\/faq-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/screen.css": {
 		"aP": 1,
 		"bl": 0,
@@ -3982,12 +3992,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Roboto-Regular.woff",
-		"oF": 0
-		},
-	"\/images\/1503019935423.csv": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/images\/1503019935423.csv",
 		"oF": 0
 		},
 	"\/images\/adith.jpg": {
@@ -4208,6 +4212,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/script_faq.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/script_faq-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
@@ -4304,6 +4317,19 @@
 		"oS": 1,
 		"uL": 1
 		},
+	"\/scss\/modules\/faq.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/faq.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
 	"\/scss\/modules\/home.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -4343,19 +4369,6 @@
 		"oS": 1,
 		"uL": 1
 		},
-	"\/scss\/print.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/print.css",
-		"oF": 0,
-		"oS": 1,
-		"uL": 1
-		},
 	"\/scss\/screen.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -4366,7 +4379,7 @@
 		"oA": 0,
 		"oAP": "\/css\/screen.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 1,
 		"uL": 1
 		},
 	"\/scss\/variables.scss": {
