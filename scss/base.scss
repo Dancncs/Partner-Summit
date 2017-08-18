@@ -7,10 +7,43 @@ body {
 	color           : #333;
 } //headings
 
+a {
+	font: {
+		family: $fontFamily,
+	} // font
+	text-decoration: none;
+} // a
+
 p {
+	font: {
+		family: $fontFamily,
+	} // font
 	margin-bottom   : 20px;
 
 	&:last-child {
 		margin-bottom: 0;
 	} // :last-child
 } //p
+
+ul {
+	margin: 0;
+	padding: 0;
+} // ul
+
+img {
+	max-width: 100%;
+} // img
+
+.wrap {
+	@include container;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	@include susy-breakpoint($tablet, 6) {
+		@include show-grid();
+	}
+
+	@include susy-breakpoint($desktop, 12) {
+		@include show-grid();
+	}
+} // .wrap

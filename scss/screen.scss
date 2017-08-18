@@ -2,7 +2,7 @@
 @import "compass";
 @import "susy";
 
-@import "fonts";
+// @import "fonts";
 
 // Core
 @import "variables";
@@ -10,9 +10,8 @@
 @import "layout";
 
 // Modules
-// @import "modules/menu";
 // @import "modules/demo";
-// @import "modules/home";
+@import "modules/home";
 // @import "modules/blog";
 // @import "modules/leader";
 // @import "modules/page";

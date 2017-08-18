@@ -4,7 +4,7 @@ $susy: (
 	columns 					: 4,
 	container 				: 990px,
 	global-box-sizing : border-box,
-	debug 						: (image: show)
+	// debug 						: (image: show)
 	);
 	
 @include border-box-sizing;
@@ -18,17 +18,13 @@ $scr__Height        : 1280px;
   
 // Typo  
   
-$base-font-size 	  : 14px;
+$base-font-size 	  : 16px;
 $base-line-height   : 1.5em;
 @include establish-baseline;
-
-$light              : light;
-$regular 	          : regular;
-$medium             : medium;
   
-$fontFamily         : 'Roboto-reg', arial, helvetica, sans-serif;
-$headFont           : 'Roboto-bold', $medium 1.5em/1.5em $fontFamily;
-$mainFont           : 1em/1.5em $fontFamily;
+$fontFamily         : Arial, Helvetica, sans-serif;
+$headFont           : normal 1.5em/1.5em $fontFamily;
+$mainFont           : normal 1em/1.5em $fontFamily;
 
 
 // Color Swatches

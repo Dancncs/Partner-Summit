@@ -1,0 +1,142 @@
+// Header
+header {
+	background: {
+		image: url('../images/header.jpg');
+		position: center center;
+		size: cover;
+		repeat: no-repeat;
+	} // background
+	// height: 540px;
+
+	hgroup {
+		@include pie-clearfix;
+	} // hgroup
+
+	.brand {
+		float: right;
+		padding-top: 35px;
+		width: 145px;
+
+		a {
+			display: block;
+		} // a
+	} // .brand
+
+	.title {
+		@include text-shadow( 1px 1px 3px #000 );
+		color: #FFF;
+		float: left;
+		margin-top: 150px;
+		max-width: 570px;
+
+		img {
+			margin-bottom: 20px;
+		} // img
+
+		.level-1 {
+			font-size: 30px;
+			margin: 0 0 10px;
+		} // .level-1
+
+		.level-2 {
+			font-size: 25px;
+			margin: 0 0 10px;
+		} // .level-2
+
+		.level-3 {
+			font-size: 25px;
+			margin: 0 0 30px;
+		} // .level-3
+	} // .title
+} // header
+
+// Main Navigation
+.main_nav {
+	@include pie-clearfix;
+	float: left;
+	margin-top: 60px;
+
+	ul {
+		@include pie-clearfix;
+		list-style: none;
+	} // ul
+
+	li {
+		border-right: 1px solid #FFF;
+		display: inline;
+		float: left;
+		a {
+			@include text-shadow( 1px 1px 3px #000 );
+			color: #FFF;
+			padding: 10px 30px;
+		} // a
+
+		&:first-child {
+			a {
+				padding-left: 0;
+			} // a
+		} //:first-child
+
+		&:last-child {
+			border-right: 0;
+		} // :last-child
+	} // li
+} // .main_nav
+
+// register button
+.button {
+	margin-top: 40px;
+
+	a {
+		color: #3DC6EF;
+
+		&.register {
+			@include border-radius(3px);
+			border: 1px solid #3DC6EF;
+			display: inline-block;
+			font-size: 24px;
+			margin-bottom: 20px;
+			padding: 10px 20px;
+			text-transform: uppercase;
+		} // .register
+
+		&.registered {
+			display: block;
+			font-size: 16px;
+			text-transform: capitalize;
+		}
+	} // a
+}
+
+// section
+section {
+	padding: 50px 0;
+	
+	&.black {
+		background: #000;
+		color: #FFF;
+	} // .black
+
+	h1 {
+		font: {
+			size: 36px;
+			weight: normal;
+		} // font
+		text-align: center;
+	} // h1
+} // section
+
+footer {
+	background: #000;
+	bottom: 0;
+	color: #FFF;
+	padding: 5px;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+
+	p {
+		font-size: 11px;
+		margin-top: 0;
+	} // p
+} // footer
