@@ -510,6 +510,7 @@ section {
     background: #000;
     color: #FFF; }
   section h1 {
+    color: #FFF;
     font-size: 36px;
     font-weight: normal;
     text-align: center; }
@@ -702,3 +703,41 @@ footer {
   text-align: center; }
 .speakers #breakout {
   margin-top: 60px; }
+
+#venue .introtel {
+  text-align: center; }
+#venue .location {
+  *zoom: 1;
+  margin-top: 60px;
+  position: relative; }
+  #venue .location:after {
+    content: "";
+    display: table;
+    clear: both; }
+#venue .location-info {
+  width: 49.15254%;
+  float: left; }
+  #venue .location-info:nth-child(2n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0; }
+  #venue .location-info:nth-child(2n + 2) {
+    margin-left: 50.84746%;
+    margin-right: -100%;
+    clear: none; }
+  #venue .location-info.hotel-contact-details {
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 50%; }
+
+.map {
+  padding: 0; }
+  .map #gmap {
+    height: 500px; }

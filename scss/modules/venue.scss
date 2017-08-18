@@ -1,0 +1,32 @@
+#venue {
+	.introtel {
+		text-align: center;
+	} // .introtel
+
+	.location {
+		@include pie-clearfix;
+		margin-top: 60px;
+		position: relative;
+	} // .location
+
+	.location-info {
+		@include gallery(6 of 12);
+
+		&.hotel-contact-details {
+			@include transform(translateY(-50%));
+			font-size: 18px;
+			text-align: center;
+			padding: 20px;
+			position: absolute;
+			top: 50%;
+		} // .hotel-contact-details
+	} // .location-info
+} // #venue
+
+.map {
+	padding: 0;
+	
+	#gmap {
+		height: 500px;
+	} // #gmap
+} // .map
