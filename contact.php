@@ -25,7 +25,7 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
 	}
 
 	// finally, send the message
-	mail($youremail, 'Contact Form', $body, $headers );
+	mail($youremail, 'Dell EMC Partner Summit 2017 Contact Form', $body, $headers );
 
 }
 
@@ -33,16 +33,72 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
 
 ?>
 <!DOCTYPE HTML>
-<html>
+<html lang="en" class="no-js">
 <head>
+	<meta charset='UTF-8'>
+	<!-- www.phpied.com/conditional-comments-block-downloads/ -->
+	<!--[if IE]><![endif]-->
 
-<title>Thanks!</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+	<link rel="stylesheet" href="css/screen.css" />
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->	
+
+	<title>Thank you!</title>
 
 </head>
 <body>
 
-<h1>Thanks</h1>
-<p>We'll get back to you as soon as possible.</p>
+	<div class="pageWrap">
+
+		<header>
+			<hgroup class="wrap">
+				<nav class="main_nav">
+					<ul>
+						<li><a href="agenda.html">Agenda</a></li>
+						<li><a href="speakers.html">Speakers</a></li>
+						<li><a href="venue.html">Venue &amp; Location</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</nav>
+				<div class="brand">
+					<a href="index.html"><img src="images/dellemc.png" alt="Dell EMC Partner Program"></a>
+				</div>
+				<div class="title">
+					<img src="images/title.png" alt="REALIZE EXTRAORDINARY">
+					<p class="level-1">SOUTH ASIA PARTNER SUMMIT 2017</p>
+					<p class="level-2">
+						<span>4 - 7 October 2017</span>
+						<span>Ho Chi Minh City, Vietnam</span>
+					</p>
+					<p class="level-3">Sheraton Saigon Hotel &amp; Tower</p>
+				</div>
+			</hgroup>
+		</header>
+
+		<section class="black">
+
+			<div class="wrap">
+				<h1>Thanks</h1>
+				<p>We'll get back to you as soon as possible.</p>
+			</div>
+
+		</section>
+
+		<footer>
+			<p>&copy; 2017 Dell EMC</p>
+		</footer>
+
+	</div>
 
 </body>
 </html>

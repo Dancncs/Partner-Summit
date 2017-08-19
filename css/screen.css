@@ -463,6 +463,11 @@ img {
   clear: both;
 }
 
+html, body {
+  background: #000;
+  height: 100%;
+}
+
 header {
   background-image: url("../images/header.jpg");
   background-position: center center;
