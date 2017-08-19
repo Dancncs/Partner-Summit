@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){$("#contact-form").validate({rules:{email:{required:!0,email:!0}},errorElement:"div"})});

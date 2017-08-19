@@ -36,4 +36,17 @@
 	textarea {
 		border: 1px solid #AAA;
 	} // input, textarea
+
+	#contact-form {
+		div {
+			position: relative;
+
+			&.error {
+				color: #A93226;
+				position: absolute;
+				top: 50%;
+				left: 5%;
+			} // .error
+		} // div
+	} // #contact-form
 } // .eform

@@ -960,3 +960,12 @@ footer p {
 .eform textarea {
   border: 1px solid #AAA;
 }
+.eform #contact-form div {
+  position: relative;
+}
+.eform #contact-form div.error {
+  color: #A93226;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
