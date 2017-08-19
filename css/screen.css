@@ -915,3 +915,43 @@ footer p {
 .faq .answer table th:nth-child(2n), .faq .answer table td:nth-child(2n) {
   padding-right: 0;
 }
+
+.eform {
+  max-width: 480px;
+  margin: 0 auto;
+}
+.eform .anti-spam {
+  display: none;
+}
+.eform label, .eform input, .eform textarea {
+  display: block;
+  margin: 0 auto 20px;
+  width: 100%;
+}
+.eform input, .eform textarea {
+  background: none;
+  border: 0;
+  color: #AAA;
+  padding: 5px;
+}
+.eform input {
+  border-bottom: 1px solid #AAA;
+}
+.eform input[type="submit"] {
+  background: #3DC6EF url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjEuMCIgeDI9IjAuNSIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIxNSUiIHN0b3AtY29sb3I9IiMwMDkwZDAiLz48c3RvcCBvZmZzZXQ9Ijg1JSIgc3RvcC1jb2xvcj0iIzNkYzZlZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: #3DC6EF -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(15%, #0090d0), color-stop(85%, #3dc6ef));
+  background: #3DC6EF -moz-linear-gradient(bottom, #0090d0 15%, #3dc6ef 85%);
+  background: #3DC6EF -webkit-linear-gradient(bottom, #0090d0 15%, #3dc6ef 85%);
+  background: #3DC6EF linear-gradient(to top, #0090d0 15%, #3dc6ef 85%);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 0;
+  color: #FFF;
+  float: right;
+  padding: 5px 15px;
+  width: auto;
+}
+.eform textarea {
+  border: 1px solid #AAA;
+}

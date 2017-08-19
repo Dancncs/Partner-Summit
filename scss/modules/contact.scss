@@ -1,0 +1,39 @@
+.eform {
+	max-width: 480px;
+	margin: 0 auto;
+
+	.anti-spam {
+		display: none;
+	} // .anti-spam
+
+	label, input, textarea {
+		display: block;
+		margin: 0 auto 20px;
+		width: 100%;
+	} // label, input, textarea
+
+	input, textarea {
+		background: none;
+		border: 0;
+		color: #AAA;
+		padding: 5px;
+	} // input, textarea
+
+	input {
+		border-bottom: 1px solid #AAA;
+
+		&[type="submit"] {
+			@include background($blue linear-gradient(to top, #0090D0 15%, $blue 85%));
+			@include border-radius(5px);
+			border: 0;
+			color: #FFF;
+			float: right;
+			padding: 5px 15px;
+			width: auto;
+		}
+	} // input
+
+	textarea {
+		border: 1px solid #AAA;
+	} // input, textarea
+} // .eform
