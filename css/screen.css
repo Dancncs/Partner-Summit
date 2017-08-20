@@ -658,7 +658,8 @@ header .title .level-3 {
   height: auto;
   left: 3%;
   position: fixed;
-  top: 60px;
+  top: 80px;
+  z-index: 10;
 }
 .main_nav ul {
   *zoom: 1;
