@@ -2,17 +2,18 @@
 @import "compass";
 @import "susy";
 
-// @import "fonts";
+@import "fonts";
 
 // Core
 @import "variables";
 @import "base";
+@import "commonStyle"; // toggle menu
 @import "layout";
 
 // Modules
-// @import "modules/demo";
 @import "modules/home";
 @import "modules/agenda";
+@import "modules/responsive-tables";
 @import "modules/speakers";
 @import "modules/venue";
 @import "modules/faq";

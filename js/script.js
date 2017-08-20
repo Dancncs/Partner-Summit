@@ -1,16 +1,17 @@
 jQuery(document).ready(function($) {
 
-	$('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top - 100
-        }, 1800);
-        return false;
-      }
+	$('.toggle').click(function() {
+    var dropdown = $('.toggle, .main_nav');
+
+    if(dropdown.hasClass('active')) {
+      dropdown.removeClass('active');
+    } else {
+      dropdown.addClass('active');
     }
+  });
+
+  $(window).resize(function() {
+    $('.main_nav, .toggle').removeClass('active');
   });
 
 });

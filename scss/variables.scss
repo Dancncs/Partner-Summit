@@ -22,7 +22,7 @@ $base-font-size 	  : 16px;
 $base-line-height   : 1.5em;
 @include establish-baseline;
   
-$fontFamily         : Arial, Helvetica, sans-serif;
+$fontFamily         : 'Roboto-reg', Arial, Helvetica, sans-serif;
 $headFont           : normal 1.5em/1.5em $fontFamily;
 $mainFont           : normal 1em/1.5em $fontFamily;
 
@@ -31,3 +31,4 @@ $mainFont           : normal 1em/1.5em $fontFamily;
 $black					    : #000;
 $blue 					    : #3DC6EF;
 $grey	 					    : #AAA;
+$yellow             : #FFD220;

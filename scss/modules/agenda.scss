@@ -1,30 +1,6 @@
-.scrollTo {
-	@include span(9 of 12);
-	margin-top: 10px;
-
-	ul {
-		@include pie-clearfix;
-		list-style: none;
-	} // ul
-
-	li {
-		border-right: 1px solid $blue;
-		display: inline;
-		float: left;
-
-		a {
-			color: $blue;
-			padding: 10px 30px;
-		} // a
-
-		&:last-child {
-			border-right: 0;
-		} // :last-child
-	} // li
-} // .scollTo
-
 .agenda {
 	color: #FFF;
+	padding-top: 0;
 
 	h1, h2 {
 		color: #FFF;
@@ -37,6 +13,10 @@
 		padding: 10px;
 	} // h2
 
+	.agenda-head {
+		display: none;
+	} // .agenda-head
+
 	table {
 		width: 100%;
 
@@ -47,6 +27,7 @@
 
 			&:first-child {
 				@include span(3 of 12);
+				background-color: $black;
 				float: none;
 				padding-left: 15px;
 			} // :first-child
@@ -73,25 +54,86 @@
 		} // th, td
 
 		td {
-			td {
+			ul {
+				margin-left: 20px;
+			} // ul
+
+			li {
 				&:first-child, &:last-child, &:nth-child(2n) {
-					padding: 0 0 10px;
+					padding: 5px 10px 15px;
 					text-align: left;
-					width: 33.33%;
 				} // :first-child, :last-child, :nth-child(2n)
-			} // td
+			} // li
+
+			&.breakout-time {
+				padding-top: 15px;
+			} // .breakout-time
 		} //td
 
 		.meal {
 			td {
 				background-color: rgba($blue, .25);
+
+				&:first-child {
+					background-color: $black;
+				} // :first-child
 			} // td
 		} // .meal
 
 		.break {
 			td {
 				background-color: rgba(#FFF, .15);
+
+				&:first-child {
+					background-color: $black;
+				} // :first-child
 			} // td
-		} // .meal
+		} // .break
+
+		.breakout {
+			td {
+				background-color: lighten($yellow, 20);
+				color: $black;
+			} // td
+		} // .breakout
+
+		.breakout-child {
+			td {
+				background-color: lighten($yellow, 35);
+				border-bottom: 1px solid $black;
+				color: $black;
+
+				&.no-border {
+					border: 0;
+				} // .no-border
+
+				span {
+					color: $black;
+				} // span
+			} // td
+		} // .breakout-child
 	} // table
+
+	@include susy-breakpoint(768px) {
+		padding-top: 50px;
+
+		table {
+			td {
+				ul {
+					@include pie-clearfix;
+					list-style: none;
+					margin-left: 0;
+				} // ul
+
+				li {
+					&:first-child, &:last-child, &:nth-child(2n) {
+						@include nested(6) {
+							@include gallery(2);
+						} // nest(6)
+						padding: 5px 10px 15px 0;
+					} // :first-child, :last-child, :nth-child(2n)
+				} // li
+			} // td
+		} // table
+	} // bp(980px)
 } // .agenda

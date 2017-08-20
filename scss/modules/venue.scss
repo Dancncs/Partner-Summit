@@ -1,4 +1,6 @@
 #venue {
+	padding-top: 0;
+
 	.introtel {
 		text-align: center;
 	} // .introtel
@@ -10,17 +12,44 @@
 	} // .location
 
 	.location-info {
-		@include gallery(6 of 12);
-
 		&.hotel-contact-details {
-			@include transform(translateY(-50%));
 			font-size: 18px;
 			text-align: center;
 			padding: 20px;
-			position: absolute;
-			top: 50%;
+
+			a {
+				color: $blue;
+			} // a
 		} // .hotel-contact-details
+
+		&.hotel-image {
+			@include transform(translateX(-50%));
+			position: relative;
+			left: 50%;
+		} //.hotel-image
 	} // .location-info
+
+	@include susy-breakpoint(768px) {
+		padding-top: 50px;
+		
+		.location-info {
+			@include gallery(6 of 12);
+
+			&.hotel-contact-details {
+				@include transform(translateY(-50%));
+				font-size: 18px;
+				text-align: center;
+				padding: 20px;
+				position: absolute;
+				top: 50%;
+			} // .hotel-contact-details
+
+			&.hotel-image {
+				@include transform(none);
+				left: inherit;
+			} //.hotel-image
+		} // .location-info
+	} // bp(768px)
 } // #venue
 
 .map {

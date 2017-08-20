@@ -4,7 +4,7 @@
 if(isset($_POST['url']) && $_POST['url'] == ''){
 
 	// put your email address here
-	$youremail = 'danc@buncreative.com';
+	$youremail = 'diana.changkuon@nowcomms.asia, vivienne.ho@now.com.sg';
 
 	// prepare a "pretty" version of the message
 	// Important: if you added any form fields to the HTML, you will need to add them here also
@@ -88,8 +88,8 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
 		<section class="black">
 
 			<div class="wrap">
-				<h1>Thanks</h1>
-				<p>We'll get back to you as soon as possible.</p>
+				<h1>Thank you. Your form has been sent to us.</h1>
+				<p style="text-align:center;">We'll get back to you as soon as possible.</p>
 			</div>
 
 		</section>

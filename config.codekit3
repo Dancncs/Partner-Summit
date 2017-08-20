@@ -3901,7 +3901,7 @@
 		"uL": 1
 		},
 	"\/config.rb": {
-		"ft": 8192,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -4082,6 +4082,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/jonny.jpg": {
+		"ft": 16384,
+		"iS": 37546,
+		"oA": 0,
+		"oAP": "\/images\/jonny.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/mcafee.png": {
 		"ft": 32768,
 		"iS": 5523,
@@ -4114,6 +4124,26 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/pangyee.jpg": {
+		"ft": 16384,
+		"iS": 30234,
+		"oA": 0,
+		"oAP": "\/images\/pangyee.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/Romain.jpg": {
+		"ft": 16384,
+		"iS": 23566,
+		"oA": 0,
+		"oAP": "\/images\/Romain.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/saravanan.jpg": {
 		"ft": 16384,
 		"iS": 66640,
@@ -4132,6 +4162,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/tianghin.jpg": {
+		"ft": 16384,
+		"iS": 7649,
+		"oA": 0,
+		"oAP": "\/images\/tianghin.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/title.png": {
@@ -4158,9 +4198,19 @@
 		},
 	"\/images\/tw.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 70540,
 		"oA": 0,
 		"oAP": "\/images\/tw.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/vincentl.jpg": {
+		"ft": 16384,
+		"iS": 6699,
+		"oA": 0,
+		"oAP": "\/images\/vincentl.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -4226,6 +4276,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/responsive-tables.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/responsive-tables-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/script-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -4258,6 +4317,24 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/script_faq-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/scroll-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/scroll-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/scroll.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/scroll-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -4300,7 +4377,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/css\/fonts.css",
 		"oF": 0,
 		"oS": 0,
@@ -4393,6 +4470,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/home.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
+	"\/scss\/modules\/responsive-tables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/responsive-tables.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1

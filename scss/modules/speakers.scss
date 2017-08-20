@@ -5,7 +5,6 @@
 	} // ul
 
 	li {
-		@include gallery(2 of 6);
 		margin-bottom: 30px;
 	} // li
 
@@ -16,6 +15,7 @@
 			size: 36px;
 			weight: lighter;
 		} // font
+		line-height: 42px;
 		text: {
 			align: center;
 			transform: uppercase;
@@ -23,7 +23,13 @@
 		padding-bottom: 10px;
 	} // .title
 
-	.speaker-img {} // .speaker-img
+	.speaker-img {
+		img {
+			@include transform(translateX(-50%));
+			position: relative;
+			left: 50%;
+		} // img
+	} // .speaker-img
 
 	p {
 		font-size: 14px;
@@ -33,5 +39,18 @@
 
 	#breakout {
 		margin-top: 60px;
-	}
+	} // #breakout
+
+	@include susy-breakpoint(768px) {
+		li {
+			@include gallery(2 of 6);
+		} // li
+
+		.speaker-img {
+			img {
+				@include transform(none);
+				left: inherit;
+			} // img
+		} // .speaker-img
+	} // bp(768px)
 } // .speakers
