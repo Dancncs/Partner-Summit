@@ -39,6 +39,11 @@
 
 	#breakout {
 		margin-top: 60px;
+
+		.title {
+			border-bottom: 1px solid $black;
+			color: $black;
+		} // .title
 	} // #breakout
 
 	@include susy-breakpoint(768px) {

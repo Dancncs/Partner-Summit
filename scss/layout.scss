@@ -257,12 +257,22 @@ section {
 		color: #FFF;
 	} // .black
 
+	&.white {
+		background: #FFF;
+		color: $black;
+	} // .white
+
 	h1 {
 		color: #FFF;
 		font: {
 			size: 36px;
 			weight: normal;
 		} // font
+		text-align: center;
+	} // h1
+
+	h2 {
+		font-size: 36px;
 		text-align: center;
 	} // h1
 } // section
