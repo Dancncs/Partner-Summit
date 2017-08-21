@@ -135,6 +135,22 @@
 					} // :first-child, :last-child, :nth-child(2n)
 				} // li
 			} // td
+
+			.meal {
+				td {
+					&:first-child {
+						background-color: rgba($blue, .25);
+					} // :first-child
+				} // td
+			} // .meal
+
+			.break {
+				td {
+					&:first-child {
+						background-color: rgba(#FFF, .15);
+					} // :first-child
+				} // td
+			} // .break
 		} // table
 	} // bp(980px)
 } // .agenda
