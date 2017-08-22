@@ -84,7 +84,8 @@
 
 .early-bird {
 	@include border-radius(5px);
-	border:1px solid #AAA;
+	background-color: $yellow;
+	color:$black;
 	text-align: center;
 	margin-top: 40px;
 	padding: 20px;

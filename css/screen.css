@@ -816,7 +816,7 @@ header .title .level-3 {
 }
 
 section {
-  padding: 50px 0;
+  padding: 40px 0;
 }
 section.black {
   background: #000;
@@ -986,7 +986,8 @@ footer p {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  border: 1px solid #AAA;
+  background-color: #FFD220;
+  color: #000;
   text-align: center;
   margin-top: 40px;
   padding: 20px;
