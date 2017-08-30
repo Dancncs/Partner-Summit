@@ -7,54 +7,171 @@ html, body {
 // Header
 header {
 	background: {
-		image: url('../images/header.jpg');
-		position: center center;
+		image: url('../images/header2.jpg');
+		position: 30% top;
 		size: cover;
 		repeat: no-repeat;
 	} // background
-	// height: 665px;
+	position: relative;
 
 	hgroup {
 		@include pie-clearfix;
+
+		&.wider-wrap {
+			// max-width: 1240px;
+			// margin-left: auto;
+			// margin-right: auto;
+		} // .wider-wrap
 	} // hgroup
 
+	.slogan {
+		@include filter(drop-shadow(0 0 3px rgba($black, 75)));
+		width: 90px;
+		position: absolute;
+		top: 240px;
+		right: 20px;
+	} // .slogan
+
 	.brand {
-		float: right;
-		padding-top: 35px;
-		width: 145px;
+		position: absolute;
+		top: 25px;
+		right: 15px;
+		width: 100px;
 
 		a {
-			display: block;
+			// display: block;
 		} // a
 	} // .brand
 
 	.title {
 		@include text-shadow( 1px 1px 3px #000 );
 		color: #FFF;
-		float: left;
-		margin-top: 150px;
-		max-width: 570px;
+		font-size: 14px;
+		padding-top: 300px;
+		padding-bottom: 30px;
+
+		p {
+			margin: 0;
+		} // p
 
 		img {
-			margin-bottom: 20px;
+			@include filter(drop-shadow(0 0 3px rgba($black, 75)));
+			// margin-bottom: 20px;
 		} // img
 
 		.level-1 {
-			font-size: 30px;
-			margin: 0 0 10px;
+			// font-size: 30px;
+			// margin: 0 0 10px;
 		} // .level-1
 
 		.level-2 {
-			font-size: 25px;
-			margin: 0 0 10px;
+			// font-size: 25px;
+			// margin: 0 0 10px;
 		} // .level-2
 
 		.level-3 {
-			font-size: 25px;
-			margin: 0 0 30px;
+			// font-size: 25px;
+			// margin: 0 0 30px;
 		} // .level-3
 	} // .title
+
+	@include susy-breakpoint(768px) {
+		.slogan {
+			position: relative;
+			top: 0;
+			right: 0;
+			padding-top: 30px;
+			width: 120px;
+		} // .slogan
+
+		.brand {
+			float: right;
+			margin-top: -90px;
+			position: relative;
+			top: 0;
+			right: 0;
+			width: 140px;
+		} // .brand
+
+		.title {
+			padding-left: 280px;
+			padding-top: 180px;
+		} // .title
+	} // bp(768)
+
+	@include susy-breakpoint(900px) {
+		.title {
+			padding-left: 330px;
+		} // .title
+	} // bp(900)
+
+	@include susy-breakpoint(980px) {
+		.brand {
+			margin-top: -35px;
+		} // .brand
+		.title {
+			padding-left: 360px;
+		} // .title
+	} // bp(980)
+
+	@include susy-breakpoint(1280px) {
+		.title {
+			// margin-left: 500px;
+		} //.title
+	} // bp(1280)
+
+	@include susy-breakpoint(1900px) {
+		// height: 665px;
+
+		.title {
+			// margin-left: 380px;
+			// max-width: 600px;
+		} // .title
+	} // bp(1900)
 } // header
+
+.label {
+	img {
+		display: none;
+	} // img
+
+	.messageBar {
+		@include background-image(linear-gradient($yellow, darken($yellow, 20)));
+		padding: 5px 50px;
+		position: absolute;
+		left: 0;
+		bottom: -40px;
+		text-align: center;
+		width: 100%;
+		z-index: 5;
+
+		p {
+			margin: 0;
+		} // p
+	} // .messageBar
+
+	@include susy-breakpoint(422px) {
+		.messageBar {
+			bottom: -30px;
+		} //.messageBar
+	} // bp(422)
+
+	@include susy-breakpoint(768px) {
+		img {
+			display: block;
+			max-width: 240px;
+			position: absolute;
+			bottom: 20px;
+			left: 0;
+		} //img
+
+		.messageBar {
+			.home & {
+				display: none;
+			} // .home
+		} // .messageBar
+	} // bp(768)
+} // .label
 
 // Main Navigation
 .toggleWrap {
@@ -74,6 +191,11 @@ header {
 			} // span
 		} // .top, .center, .bottom
 	} // .toggle
+
+	@include susy-breakpoint(768px) {
+		left: 15px;
+		top: 120px;
+	} // bp(768)
 
 	@include susy-breakpoint(980px) {
 		display: none;
@@ -105,7 +227,7 @@ header {
 			@include text-shadow( 1px 1px 3px #000 );
 			color: #FFF;
 			display: block;
-			padding: 10px 30px;
+			padding: 10px;
 		} // a
 
 		&:last-child {
@@ -113,11 +235,18 @@ header {
 		} // :last-child
 	} // li
 
+	@include susy-breakpoint(768px) {
+		&.active {
+			left: 45px;
+			top: 160px;
+		} // .active
+	} // bp(768)
+
 	@include susy-breakpoint(980px) {
 		@include pie-clearfix;
-		float: left;
 		height: auto;
-		margin-top: 60px;
+		margin: -90px auto 0;
+		width: 541px;
 
 		li {
 			border-bottom: 0;
@@ -178,7 +307,6 @@ header {
 
 	&.side-button {
 		margin-top: 20px;
-		margin-bottom: 40px;
 		text-align: center;
 	} // .side-button
 
@@ -275,6 +403,14 @@ section {
 		font-size: 36px;
 		text-align: center;
 	} // h1
+
+	&.first {
+		margin-top: 30px;
+	} // .first
+
+	&.opening {
+		padding-top: 0;
+	} // .opening
 } // section
 
 // Table

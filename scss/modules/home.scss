@@ -1,4 +1,5 @@
 .cols-10-intro {
+	@include pie-clearfix;
 	text-align: center;
 	position: relative;
 
@@ -15,6 +16,117 @@
 	  left: 50%;
 	} // :after
 } // .cols-10-intro
+
+.about {
+	@include susy-breakpoint(980px, 12) {
+		@include span(7 wider);
+		text-align: left;
+	} // bp(980)
+} // .about
+
+.sponsors {
+	margin-top: 60px;
+
+	h3 {
+		color: #FFF;
+	} // h3
+
+	ul {
+		list-style: none;
+	} // ul
+
+	p {
+		color: $grey;
+		margin-bottom: 10px;
+	} // p
+
+	a {
+		display: block;
+		outline: 0;
+	} //  a
+
+	.titanium {
+		img {
+			width: 90px;
+		} //  img
+	} // .titanium
+
+	.platinium {
+		li {
+			margin-bottom: 20px;
+		} // li
+
+		img {
+			width: 105px;
+		} // img
+	} // .platinium
+
+	.gold {
+		img {
+			width: 85px;
+		} // img
+	} // .gold
+
+	@include susy-breakpoint(768px ,6) {
+		@include pie-clearfix;
+		@include span(4 at 2 isolate);
+		margin-bottom: 60px;
+
+		.level-2-sponsors {
+			@include gallery(3);
+			margin-top: 20px;
+		} // .level-2-sponsors
+
+		.platinium {
+			@include pie-clearfix;
+
+			li {
+				display: inline;
+				float: left;
+				margin-right: 23px;
+
+				&:last-child {
+					margin-right: 0;
+				} // :last-child
+			} // li
+		} // .level-2-sponsors
+	} // bp(768)
+
+	@include susy-breakpoint(980px, 12) {
+		@include span(4 last);
+		border-left: 1px solid #FFF;
+		margin-top: 0;
+		margin-left: 0;
+		padding-left: 65px;
+		text-align: left;
+
+		h3 {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		} // h3
+
+		.level-2-sponsors {
+			@include nested(4) {
+				@include full;
+				float: none;
+
+				&:nth-child(n) {
+					margin-left: 0;
+				} // nth-child(n)
+			} // nested(4)
+		} // .level-2-sponsors
+
+		.platinium {
+			li {
+				margin-right: 32px;
+			} // li
+		} // .platinium
+
+		.gold {
+			margin-top: -15px;
+		} // .gold
+	} // bp(980)
+} // .sponsor
 
 .agenda-brief {
 	.agenda-brief-container {
@@ -73,6 +185,10 @@
 		} // ul
 	} // bp(560px)
 
+	@include susy-breakpoint(800px) {
+		margin-bottom: 100px;
+	} // bp(800)
+
 	@include susy-breakpoint(980px, 12) {
 		ul {
 			li {
@@ -83,65 +199,28 @@
 } // .reason
 
 .early-bird {
-	@include border-radius(5px);
+	@include box-shadow(inset 0 0 5px rgba($black, .65));
 	background-color: $yellow;
 	color:$black;
 	text-align: center;
-	margin-top: 40px;
-	padding: 20px;
+	margin: 40px 0 100px;
+	padding: 20px 20px 60px;
 
 	p {
 		margin: 0;
 	} // p
+
+	@include susy-breakpoint(800px) {
+		bottom: 0;
+		margin: 0;
+		position: fixed;
+		width: 100%;
+		z-index: -1;
+	} // bp(800)
 } // .early-bird
 
-.sponsors {
-	@include pie-clearfix;
-	margin-bottom: 60px;
-
-	p {
-		font-size: 14px;
-	} // p
-
-	ul {
-		@include pie-clearfix;
-		list-style: none;
-	} // ul
-
-	li {
-		float: left;
-		padding: 15px 15px 15px 0;
-		width: 144px;
-	} // li
-
-	.titanium, .level-2-sponsors {
-		@include pie-clearfix;
-
-		p, ul {
-			display: inline;
-			float: left;
-		} // p, ul
-
-		p {
-			margin-top: 5px;
-			margin-right: 20px;
-		} // p
-	} // .titanium, .level-2-sponsors
-
-	.level-2-sponsors {
-		@include gallery(2);
-		margin-top: 80px;
-	} // .level-2-sponsors
-
-	.gold {
-		.sponsor-wrap {
-			@include last; 
-		} // .sponsor-wrap
-	} // .gold
-
-	@include susy-breakpoint(600px) {
-		li {
-		padding: 15px;
-	} // li
-	} // bp(600px)
-} // .sponsor
+.button {
+	&.home-register {
+		clear: both;
+	} // .home-register
+} // .button

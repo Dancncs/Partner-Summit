@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){!function(){var t=document.createElement("input");t.setAttribute("type","date"),"text"===t.type&&$(".postform").datepicker({dateFormat:"dd-mm-yy"})}()});

@@ -93,16 +93,16 @@
 
 		.breakout {
 			td {
-				background-color: lighten($yellow, 20);
-				color: $black;
+				// background-color: lighten($yellow, 20);
+				// color: $black;
 			} // td
 		} // .breakout
 
 		.breakout-child {
 			td {
-				background-color: lighten($yellow, 35);
-				border-bottom: 1px solid $black;
-				color: $black;
+				// background-color: lighten($yellow, 35);
+				// border-bottom: 1px solid $black;
+				// color: $black;
 
 				&.no-border {
 					border: 0;

@@ -5,51 +5,149 @@
 		text-align: center;
 	} // .introtel
 
-	.location {
+	h2 {
+		color: #FFF;
+		font-size: 24px;
+	} // h2
+
+	cite {
+		font: {
+			family: 'Roboto-reg';
+			size: 16px;
+			style: normal;
+		} // font
+	} // cite
+
+	.places {
 		@include pie-clearfix;
-		margin-top: 60px;
-		position: relative;
+		max-width: 960px;
+		margin-left: auto;
+		margin-right: auto;
+	} // .places
+
+	.left-align {
+		text-align: left;
+	} // .left-align
+
+	.row {
+		@include pie-clearfix;
+		border-bottom: 1px dashed darken($grey, 40);
+		padding: 30px 0;
+
+		&:first-child {
+			padding-top: 0;
+		} //:first-child
+	} // .row
+
+	.do-not-miss {
+		ol {
+			max-width: 480px;
+			margin: 0 auto;
+			text-align: left;
+		} // ol
+	} // .do-not-miss
+
+	.attractions {
+		text-align: left;
+
+		ol {
+			font-size: 14px;
+		} // ol
 	} // .location
+
+	.must-go {
+		a {
+			// @include border-radius(5px);
+			// background-color: $blue;
+			// color: #FFF;
+			// display: inline-block;
+			// margin: 30px 0;
+			// padding: 10px 20px;
+		} // a
+	} // .must-go
+
+	.attractions {
+		// border-top: 1px solid $grey;
+		// border-bottom: 1px solid $grey;
+		// clear: both;
+		// padding-bottom: 15px;
+	} // .attractions
 
 	.location-info {
 		&.hotel-contact-details {
-			font-size: 18px;
-			text-align: center;
-			padding: 20px;
+			// font-size: 18px;
+			// text-align: center;
+			// padding: 20px;
 
 			a {
-				color: $blue;
+				// color: $blue;
 			} // a
 		} // .hotel-contact-details
 
 		&.hotel-image {
-			@include transform(translateX(-50%));
-			position: relative;
-			left: 50%;
+			// @include transform(translateX(-50%));
+			// position: relative;
+			// left: 50%;
 		} //.hotel-image
 	} // .location-info
 
-	@include susy-breakpoint(768px) {
-		padding-top: 50px;
+	@include susy-breakpoint(768px, 6) {
+		.places {
+			figure {
+				@include gallery(2);
+			} // figure
+		} // .places
+
+		.must-go-wrap {
+			// @include pie-clearfix;
+			// margin-bottom: 30px;
+		} // .must-go-wrap
+
+		.must-go {
+			// @include gallery(2);
+			// padding: 15px;
+		} // .must-go
+
+		.attractions {
+			// @include pie-clearfix;
+
+			ol {
+				li {
+					@include gallery(3);
+					padding: 5px 10px;
+				} // li
+			} // ol
+		} // .attractions
 		
 		.location-info {
-			@include gallery(6 of 12);
+			// @include gallery(3);
 
 			&.hotel-contact-details {
-				@include transform(translateY(-50%));
-				font-size: 18px;
-				text-align: center;
-				padding: 20px;
-				position: absolute;
-				top: 50%;
+				// @include transform(translateY(-50%));
+				// font-size: 18px;
+				// text-align: center;
+				// padding: 20px;
+				// position: absolute;
+				// top: 50%;
 			} // .hotel-contact-details
 
 			&.hotel-image {
-				@include transform(none);
-				left: inherit;
+				// @include transform(none);
+				// left: inherit;
 			} //.hotel-image
 		} // .location-info
 	} // bp(768px)
+
+	@include susy-breakpoint(980px, 12) {
+		.attractions {
+			ol {
+				li {
+					// @include gallery(4);
+					// padding: 10px 30px;
+				} //li
+			} // ol
+		} // .attractions
+	} // bp(980)
 } // #venue
 
 .map {
