@@ -80,14 +80,14 @@
 					@include full;
 				} // first-child
 
-				&.col-3 {
-					@include span(4);
+				&.col-2 {
+					@include span(6);
 					// float: left;
 					// max-width: 310px;
 					// width: 100%;
 
-					&:last-child {
-						@include span(4 last);
+					&:nth-child(2n+3) {
+						@include span(6 last);
 					} // :last-child
 				} // .col-3
 			} // .company-wrap

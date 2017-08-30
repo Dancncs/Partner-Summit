@@ -4293,7 +4293,7 @@
 		"uL": 1
 		},
 	"\/config.rb": {
-		"ft": 131072,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -4579,6 +4579,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/katsuro.jpg": {
+		"ft": 16384,
+		"iS": 49503,
+		"oA": 0,
+		"oAP": "\/images\/katsuro.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/label.png": {
 		"ft": 32768,
 		"iS": 21672,
@@ -4652,6 +4662,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/images\/nutanix.png": {
+		"ft": 32768,
+		"iS": 10844,
+		"oA": 0,
+		"oAP": "\/images\/nutanix.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/nutanix_white.png": {
+		"ft": 32768,
+		"iS": 4152,
+		"oA": 0,
+		"oAP": "\/images\/nutanix_white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/pam.jpg": {

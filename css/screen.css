@@ -1040,20 +1040,20 @@ footer p {
     margin-right: -100%;
     clear: none;
   }
-  .sponsors .platinium {
+  .sponsors .platinium, .sponsors .gold {
     *zoom: 1;
   }
-  .sponsors .platinium:after {
+  .sponsors .platinium:after, .sponsors .gold:after {
     content: "";
     display: table;
     clear: both;
   }
-  .sponsors .platinium li {
+  .sponsors .platinium li, .sponsors .gold li {
     display: inline;
     float: left;
     margin-right: 23px;
   }
-  .sponsors .platinium li:last-child {
+  .sponsors .platinium li:last-child, .sponsors .gold li:last-child {
     margin-right: 0;
   }
 }
@@ -1587,13 +1587,13 @@ table td, table th {
     margin-left: 0;
     margin-right: 0;
   }
-  .sponsors-intro .companies .company-wrap.col-3 {
-    width: 32.20339%;
+  .sponsors-intro .companies .company-wrap.col-2 {
+    width: 49.15254%;
     float: left;
     margin-right: 1.69492%;
   }
-  .sponsors-intro .companies .company-wrap.col-3:last-child {
-    width: 32.20339%;
+  .sponsors-intro .companies .company-wrap.col-2:nth-child(2n+3) {
+    width: 49.15254%;
     float: right;
     margin-right: 0;
   }
