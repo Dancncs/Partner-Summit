@@ -4320,6 +4320,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/magnific-popup.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/magnific-popup-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/screen.css": {
 		"aP": 1,
 		"bl": 0,
@@ -4569,6 +4579,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/jayt.png": {
+		"ft": 32768,
+		"iS": 104896,
+		"oA": 0,
+		"oAP": "\/images\/jayt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/jonny.jpg": {
 		"ft": 16384,
 		"iS": 37546,
@@ -4598,6 +4619,16 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/lertluk.jpg": {
+		"ft": 16384,
+		"iS": 58973,
+		"oA": 0,
+		"oAP": "\/images\/lertluk.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/mcafee.png": {
@@ -4652,6 +4683,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/ngtg.jpg": {
+		"ft": 16384,
+		"iS": 32881,
+		"oA": 0,
+		"oAP": "\/images\/ngtg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/ntb.jpg": {
@@ -4776,6 +4817,26 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/sudi.jpg": {
+		"ft": 16384,
+		"iS": 22502,
+		"oA": 0,
+		"oAP": "\/images\/sudi.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/tanhiang.jpg": {
+		"ft": 16384,
+		"iS": 13215,
+		"oA": 0,
+		"oAP": "\/images\/tanhiang.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/tianghin.jpg": {
@@ -4929,6 +4990,26 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/vishal.jpg": {
+		"ft": 16384,
+		"iS": 25792,
+		"oA": 0,
+		"oAP": "\/images\/vishal.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/vivek.jpg": {
+		"ft": 16384,
+		"iS": 16500,
+		"oA": 0,
+		"oAP": "\/images\/vivek.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/vt-1.png": {
 		"ft": 32768,
 		"iS": 59955,
@@ -4970,6 +5051,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/zeynep.jpg": {
+		"ft": 16384,
+		"iS": 26576,
+		"oA": 0,
+		"oAP": "\/images\/zeynep.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/index.html": {
@@ -5038,6 +5129,26 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/inline-popup-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/inline-popup-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/inline-popup.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/inline-popup-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/jquery-1.11.2.min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -5064,6 +5175,26 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/jquery.validate.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/magnific-popup-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/magnific-popup-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/magnific-popup.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/magnific-popup-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

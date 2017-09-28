@@ -24,6 +24,55 @@
 	} // .title
 
 	.speaker-img {
+		margin-bottom: 10px;
+
+		a {
+			display: block;
+			position: relative;
+
+			&:after {
+				@include transition(all .35s ease-in-out);
+				@include opacity(0);
+				background: rgba($black, .85);
+				content: "";
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+			} // :after
+
+			&:hover {
+				.fa {
+					@include transform(translate(-50%, -50%) scale(1) rotate(0));
+					@include opacity(1);
+				} // .fa
+
+				&:after {
+					@include opacity(1);
+				} // :after
+			} // :hover
+		} // a
+
+		.fa {
+			@include transition(all .35s ease-in-out);
+			@include transform(translate(-50%, -50%) scale(0.1) rotate(90deg));
+			@include opacity(0);
+			color: #FFF;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			text-align: center;
+			z-index: 5;
+
+			span {
+				display: block;
+		    font-family: arial;
+		    font-size: 14px;
+		    margin-top: 10px;
+			} // span
+		} // .fa
+
 		img {
 			@include transform(translateX(-50%));
 			position: relative;
@@ -59,3 +108,59 @@
 		} // .speaker-img
 	} // bp(768px)
 } // .speakers
+
+
+// Magnific Popup
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+/* 
+
+====== Zoom effect ======
+
+*/
+.mfp-zoom-in {
+  
+  /* start state */
+  .mfp-with-anim {
+    opacity: 0;
+    transition: all 0.2s ease-in-out; 
+    transform: scale(0.8); 
+  }
+  
+  &.mfp-bg {
+    opacity: 0;
+	  transition: all 0.3s ease-out;
+  }
+  
+  /* animate in */
+  &.mfp-ready {
+    .mfp-with-anim {
+      opacity: 1;
+      transform: scale(1); 
+    }
+    &.mfp-bg {
+      opacity: 0.8;
+    }
+  }
+  
+  /* animate out */
+  &.mfp-removing {
+    
+    .mfp-with-anim {
+      transform: scale(0.8); 
+      opacity: 0;
+    }
+    &.mfp-bg {
+      opacity: 0;
+    }
+    
+  }
+  
+}

@@ -12,6 +12,7 @@ a {
 		family: $fontFamily,
 	} // font
 	text-decoration: none;
+	outline: none;
 } // a
 
 p {
@@ -31,7 +32,9 @@ ul {
 } // ul
 
 img {
+	display: block;
 	max-width: 100%;
+	margin: 0 auto;
 } // img
 
 .wrap {

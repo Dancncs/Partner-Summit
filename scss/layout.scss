@@ -56,7 +56,8 @@ header {
 
 		img {
 			@include filter(drop-shadow(0 0 3px rgba($black, 75)));
-			// margin-bottom: 20px;
+			float: left;
+			margin-bottom: 15px;
 		} // img
 
 		.level-1 {
